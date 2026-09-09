@@ -1,0 +1,17 @@
+EVIDÊNCIA DO HISTÓRICO GIT
+
+Execute no terminal, dentro do repositório:
+
+git log --oneline --graph --decorate --all
+
+Exemplo de histórico esperado:
+
+* abc1234 (HEAD -> main) merge: integra conteúdo revisado
+|\
+| * def5678 (feature/exercicios) feat: adiciona exercícios do guia
+| * ghi9012 docs: adiciona conceitos fundamentais
+* | jkl3456 fix: resolve conflito no README
+|/
+* mno7890 docs: cria estrutura inicial
+* pqr1234 docs: adiciona README inicial
+
